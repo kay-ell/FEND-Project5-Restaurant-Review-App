@@ -154,7 +154,7 @@ nav h1 a {
   
   max-width: 30%;
 }
-#restaurants-list .restaurant-img {
+img.restaurant-list-img {
   background-color: #ccc;
   display: block;
   margin: 0;
