@@ -1,5 +1,5 @@
 // store cache version in staticCacheName
-const staticCacheName = 'cache-v2';
+const staticCacheName = 'cache-v3';
 
 // store urls to cache in an array
 const filesToCache = [
