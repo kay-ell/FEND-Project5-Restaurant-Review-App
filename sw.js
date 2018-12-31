@@ -20,9 +20,7 @@ const filesToCache = [
 	'img/10.jpg',
 	'js/dbhelper.js',
 	'js/main.js',
-	'js/restaurant_info.js',
-	'https://unpkg.com/leaflet@1.3.1/dist/leaflet.css',
-	'https://unpkg.com/leaflet@1.3.1/dist/leaflet.js'
+	'js/restaurant_info.js'
 ];
 
 // install
