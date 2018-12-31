@@ -1,0 +1,54 @@
+@media screen and (min-width: 300px) and (max-width: 450px) {
+	body.inside {
+		font-size: 14px;
+	}
+	#restaurant-container {
+		padding: 20px;
+	}
+	#restaurant-hours td {
+  	padding: 7px 15px 0 0;
+	}
+	#reviews-container {
+		padding: 30px 20px 80px;
+	}
+	#restaurant-name,
+	#reviews-container h2 {
+		font-size: 1.5rem;
+	}
+	#breadcrumb {
+		font-size: 1rem;
+	}
+	nav h1 a {
+		font-size: 1.05rem;
+		padding: 10px;
+	}
+	#reviews-list li h3 {
+		font-size: 1.2rem;
+	}
+	#reviews-list li .review-rating {
+		font-size: 0.9rem;
+		padding: 8px;
+		width: 80px;
+	}
+	q {
+		font-size: 0.9rem;
+	}
+}
+
+@media screen and (min-width: 1px) and (max-width: 600px) {
+	#restaurant-img {
+		width: 100%;
+	}
+	#restaurant-cuisine {
+		width: 100%;
+	}
+	#restaurants-list li {
+		max-width: 100%;
+	}
+}
+
+@media screen and (min-width: 601px) and (max-width: 1006px) {
+	#restaurants-list li {
+		max-width: 40%;
+	}
+}

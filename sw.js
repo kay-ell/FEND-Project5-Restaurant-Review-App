@@ -1,5 +1,7 @@
-const staticCacheName = 'cache-v3';
+// store cache version in staticCacheName
+const staticCacheName = 'cache-v2';
 
+// store urls to cache in an array
 const filesToCache = [
 	'/',
 	'index.html',
@@ -23,6 +25,7 @@ const filesToCache = [
 	'https://unpkg.com/leaflet@1.3.1/dist/leaflet.js'
 ];
 
+// install
 self.addEventListener('install', function(event) {
 	event.waitUntil(
 		caches.open(staticCacheName).then(function(cache) {
@@ -31,6 +34,7 @@ self.addEventListener('install', function(event) {
 	);
 });
 
+// activate
 self.addEventListener('activate', function(event) {
 	event.waitUntil(
 		caches.keys().then(function(cacheNames) {
@@ -46,6 +50,7 @@ self.addEventListener('activate', function(event) {
 	)
 });
 
+// fetch
 self.addEventListener('fetch', function(event) {
 	event.respondWith(
 		caches.open(staticCacheName).then(function(cache) {
