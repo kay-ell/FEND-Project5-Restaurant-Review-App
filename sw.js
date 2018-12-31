@@ -7,7 +7,6 @@ const filesToCache = [
 	'index.html',
 	'restaurant.html',
 	'css/styles.css',
-	'data/restaurants.json',
 	'img/1.jpg',
 	'img/2.jpg',
 	'img/3.jpg',
